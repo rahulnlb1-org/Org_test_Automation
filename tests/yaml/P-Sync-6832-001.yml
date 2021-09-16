@@ -65,7 +65,7 @@ resources:
   - name: P_Sync_6832_001_IncomingWebhook
     type: IncomingWebhook
     configuration:
-      webhookName: P_Sync_6832_001
+      webhookName: i_6832_incomingWebhook
       pinVersion: 1
 
   - name: P_Sync_6832_001_Property_Bag
