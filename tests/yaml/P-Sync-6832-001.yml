@@ -1,0 +1,13 @@
+resources:
+  - name: P_Sync_6832_001_Aql
+    type: Aql
+    configuration:
+      sourceArtifactory: s_artifactory
+      query: items.find({"@build.name":{"$eq":"artifactory"}})
+      pinVersion: 1
+
+  - name: P_Sync_6832_001_Property_Bag
+    type: PropertyBag
+    configuration:
+      test: value
+      pinVersion: 1
