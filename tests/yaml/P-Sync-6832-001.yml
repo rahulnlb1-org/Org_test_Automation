@@ -60,6 +60,7 @@ resources:
       sourceRepository: docker-local
       imageName: image
       imageTag: 1.0.0
+      pinVersion: 1
 
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
