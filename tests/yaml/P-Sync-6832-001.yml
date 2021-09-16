@@ -14,6 +14,17 @@ resources:
       buildNumber: 1
       pinVersion: 1
 
+  - name: P_Sync_6832_001_DistributionRule
+    type: DistributionRule
+    configuration:
+      sourceDistribution: s_distribution
+      serviceName: svce
+      siteName: "*"
+      cityName: "*"
+      countryCodes:
+        - US
+      pinVersion: 1
+
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
     configuration:
