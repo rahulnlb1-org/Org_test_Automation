@@ -25,6 +25,12 @@ resources:
         - US
       pinVersion: 1
 
+  - name: P_Sync_6832_001_FileSpec
+    type: FileSpec
+    configuration:
+      sourceArtifactory: s_artifactory
+      pattern: "artifactory-build*"
+
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
     configuration:
