@@ -68,6 +68,15 @@ resources:
       webhookName: i_6832_incomingWebhook
       pinVersion: 1
 
+  - name: P_Sync_6832_001_ReleaseBundle
+    type: ReleaseBundle
+    configuration:
+      sourceDistribution: s_distribution
+      name: release
+      version: v1.0
+      isSigned: false
+      pinVersion: 1
+
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
     configuration:
