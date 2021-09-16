@@ -1,3 +1,6 @@
+template: true
+valuesFilePath: ../values/gitRepoValues.yml
+
 resources:
   - name: P_Sync_6832_001_Aql
     type: Aql
@@ -30,6 +33,15 @@ resources:
     configuration:
       sourceArtifactory: s_artifactory
       pattern: "artifactory-build*"
+      pinVersion: 1
+
+  - name: P_Sync_6832_001_GitRepo
+    type: GitRepo
+    configuration:
+      path: {{ .Values.Org_test_Automation.automation.path }}
+      branches:
+        include: master
+      gitProvider: s_gitHub
       pinVersion: 1
 
   - name: P_Sync_6832_001_Property_Bag
