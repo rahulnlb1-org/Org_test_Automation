@@ -6,6 +6,14 @@ resources:
       query: items.find({"@build.name":{"$eq":"artifactory"}})
       pinVersion: 1
 
+  - name: P_Sync_6832_001_BuildInfo
+    type: BuildInfo
+    configuration:
+      sourceArtifactory: s_artifactory
+      buildName: P_Sync_6832_001
+      buildNumber: 1
+      pinVersion: 1
+
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
     configuration:
