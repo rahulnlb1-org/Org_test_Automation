@@ -30,6 +30,7 @@ resources:
     configuration:
       sourceArtifactory: s_artifactory
       pattern: "artifactory-build*"
+      pinVersion: 1
 
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
