@@ -1,0 +1,6 @@
+resources:
+  - name: A_Resources_6832_001_Property_Bag
+    type: PropertyBag
+    configuration:
+      test: value
+      pinVersion: 24
