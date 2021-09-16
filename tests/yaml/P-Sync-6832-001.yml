@@ -44,6 +44,15 @@ resources:
       gitProvider: s_gitHub
       pinVersion: 1
 
+  - name: P_Sync_6832_001_HelmChart
+    type: HelmChart
+    configuration:
+      sourceArtifactory: s_artifactory
+      repository: helm-remote
+      chart: chart
+      version: 1.0.0
+      pinVersion: 1
+
   - name: P_Sync_6832_001_Property_Bag
     type: PropertyBag
     configuration:
