@@ -38,7 +38,7 @@ resources:
   - name: P_Sync_6832_001_GitRepo
     type: GitRepo
     configuration:
-      path: {{ .Values.Org_test_Automation.automation.path }}
+      path: {{ .Values.GitHub.Org_test_Automation.path }}
       branches:
         include: master
       gitProvider: s_gitHub
