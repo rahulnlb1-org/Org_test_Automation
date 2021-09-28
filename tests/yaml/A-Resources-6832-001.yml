@@ -1,6 +1,12 @@
+template: true
+valuesFilePath: ../values/gitRepoValues.yml
+
 resources:
   - name: A_Resources_6832_001_Property_Bag
-    type: PropertyBag
+    type: GitRepo
     configuration:
-      test: value
+      path: {{ .Values.GitHub.Org_test_Automation.path }}
+      gitProvider: s_gitHub
+      branches:
+        include: ^{{gitBranch}}$
       pinVersion: 24
