@@ -2,7 +2,7 @@ template: true
 valuesFilePath: ../values/gitRepoValues.yml
 
 resources:
-  - name: A_Resources_6832_001_Property_Bag
+  - name: A_Resources_6832_001_Resource
     type: GitRepo
     configuration:
       path: {{ .Values.GitHub.Org_test_Automation.path }}
