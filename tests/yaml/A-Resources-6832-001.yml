@@ -3,10 +3,8 @@ valuesFilePath: ../values/gitRepoValues.yml
 
 resources:
   - name: A_Resources_6832_001_Resource
-    type: GitRepo
+    type: PropertyBag
     configuration:
-      path: {{ .Values.GitHub.Org_test_Automation.path }}
-      gitProvider: s_gitHub
-      branches:
-        include: ^{{gitBranch}}$
-      pinVersion: 24
+      test: value
+      pin:
+        test: pinnedValue
