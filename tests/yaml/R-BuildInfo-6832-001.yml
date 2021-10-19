@@ -8,4 +8,5 @@ resources:
       sourceArtifactory: s_artifactory
       buildName: P_Sync_6832_001
       buildNumber: 1
-      pinVersion: "1"
+      pin:
+        versionId: "1"
