@@ -2,7 +2,7 @@ template: true
 valuesFilePath: ../values/gitRepoValues.yml
 
 resources:
-  - name: P_Sync_6832_001_Property_Bag
+  - name: P_Sync_6832_002_Property_Bag
     type: PropertyBag
     configuration:
       test: value
