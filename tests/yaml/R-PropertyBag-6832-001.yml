@@ -6,4 +6,5 @@ resources:
     type: PropertyBag
     configuration:
       test: value
-      pinVersion: "1"
+      pin:
+        versionId: "1"
