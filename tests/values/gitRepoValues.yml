@@ -5,6 +5,8 @@ GitHub:
     path: jfbetapipeorg/Org_test_Automation_bash
   Org_test_Automation_PowerShell:
     path: jfbetapipeorg/Org_test_Automation_PowerShell
+  templates:
+    path: jfbetapipeorg/templates
 
 GitHubEnterprise:
   Org_test_Automation:
@@ -19,6 +21,8 @@ GitLab:
     path: jfbeta/test_automation
   jfrogtesting:
     path: jfbeta/jfrogtesting
+  templates:
+    path: jfbeta/templates
 
 BitbucketCloud:
   jfrogtesting:
@@ -27,6 +31,8 @@ BitbucketCloud:
     path: jfbeta/test_automation
   org_test_automation:
     path: jfbetapipeorg/org_test_automation
+  templates:
+    path: jfbetapipeorg/templates
 
 BitbucketServer:
   automation:
@@ -35,6 +41,8 @@ BitbucketServer:
     path: PIP/test_automation
   test:
     path: ~ranjanks/test
+  templates:
+    path: PIP/templates
 
 Projects:
   FirstProjectKey: first
