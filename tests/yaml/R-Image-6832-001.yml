@@ -9,4 +9,5 @@ resources:
       sourceRepository: docker-local
       imageName: image
       imageTag: 1.0.0
-      pinVersion: "1"
+      pin:
+       versionId: "1"
