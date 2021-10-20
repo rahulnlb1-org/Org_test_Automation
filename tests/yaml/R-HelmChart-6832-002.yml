@@ -2,7 +2,7 @@ template: true
 valuesFilePath: ../values/gitRepoValues.yml
 
 resources:
-  - name: P_Sync_6832_001_HelmChart
+  - name: P_Sync_6832_002_HelmChart
     type: HelmChart
     configuration:
       sourceArtifactory: s_artifactory
@@ -10,4 +10,4 @@ resources:
       chart: chart
       version: 1.0.0
       pin:
-        versionId: "1"
+        version: 1.0.0-pin
