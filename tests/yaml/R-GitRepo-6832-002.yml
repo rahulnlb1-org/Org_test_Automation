@@ -9,4 +9,5 @@ resources:
       branches:
         include: master
       gitProvider: s_gitHub
-    pinVersion: 1
+    pin:
+      versionId: 1
